@@ -3,7 +3,7 @@ module labl (
     input a, b, c
 );
 
-    assign sum = (a ^ b) ^ c;  // Sum calculation
-    assign carry = (a & b) | (c & (a ^ b));  // Carry calculation
+    assign sum = (a ^ b) ^ c;  
+    assign carry = (a & b) | (c & (a ^ b));  
 
 endmodule

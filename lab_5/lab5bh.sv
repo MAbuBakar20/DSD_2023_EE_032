@@ -1,6 +1,6 @@
 module lab5bh (
-    input logic a, b, c, d,  // Adjusted input values
-    output logic seg1, seg2, seg3, seg4, seg5, seg6, seg7  // Adjusted output names
+    input logic a, b, c, d,  
+    output logic seg1, seg2, seg3, seg4, seg5, seg6, seg7  
 );
 
     logic [3:0] n;
